@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+
+<div class="profile-header">
+    <img src="{{ url_for('static', filename='images/jp.jpeg') }}" alt="Profile Picture" class="profile-pic">
+    <div class="profile-text">
+        <h1>Oje Johnson Pamilerin</h1>
+        <p class="subtitle">Cybersecurity Analyst | Junior Penetration Tester</p>
+    </div>
+</div>
+
+<section>
+    <h2>Professional Summary</h2>
+    <p>
+        Results-driven Cybersecurity Analyst and Junior Penetration Tester with hands-on experience in identifying vulnerabilities,
+        conducting internal and external penetration tests, and securing critical infrastructure. Adept at using industry-standard tools
+        such as Burp Suite, Metasploit, Nmap, Wireshark, and Linux-based environments. Passionate about ethical hacking, proactive threat hunting,
+        and continuous learning in the InfoSec field.
+    </p>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+    <ul>
+        <li>
+            <strong>Junior Penetration Tester – LianMedia LLC.</strong> (August 2025 – November 2025)<br>
+            - Performed network and web app penetration tests using tools like Burp Suite and Nmap.<br>
+            - Created detailed vulnerability reports and remediation plans for clients.<br>
+            - Simulated phishing campaigns and performed social engineering assessments.
+        </li>
+        <li>
+            <strong>Cybersecurity Intern – ABC Tech Solutions</strong> (Jul 2023 – Dec 2023)<br>
+            - Assisted with vulnerability assessments and SIEM alert triage.<br>
+            - Developed bash scripts to automate system health checks and logging.<br>
+            - Participated in incident response simulations.
+        </li>
+    </ul>
+</section>
+<section>
+    <h2>Technical Skills</h2>
+    <ul>
+         <li>Offensive Tools: Burp Suite, Nmap, SQLMap, Metasploit, Gobuster</li>
+        <li>Active Directory Exploitation: BloodHound, Mimikatz, CrackMapExec</li>
+        <li>Defensive Tools: ELK Stack, Sysmon, Wazuh, Sigma, OSQuery</li>
+        <li>Web Security: OWASP Top 10, JWT, CSRF, SSRF, LFI, RCE</li>
+        <li>Scripting: Python, Bash, PowerShell</li>
+        <li>Cloud Security: AWS IAM, Azure Security Center, ScoutSuite</li>
+        <li>Methodologies: MITRE ATT&CK, NIST, OWASP Testing Guide, CIS Controls</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>MSc. Information Security</strong> – ITMO University, Russia (Graduated with honors)
+        </li>
+        <li>
+            <strong>BSc. Information Technology</strong> – Methodist University College, Ghana (Graduated with honors)
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li>eJPT – Junior Penetration Tester (INE)</li>
+        <li>CompTIA Security+ (2024)</li>
+        <li>TryHackMe Cybersecurity Path (Blue & Red Team)</li>
+        <li>Hack The Box Tier I Badge</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Resume</h2>
+    <p><a href="/static/docs/Your_Name_CV.pdf" target="_blank">Download My CV (PDF)</a></p>
+</section>
+
+{% endblock %}
+
+</body>
+</html>

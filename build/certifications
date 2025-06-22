@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Analyst - Your Name</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/certifications">Certifications</a>
+        <a href="/contact">Contact</a>
+        <a href="/blog">Blog</a>
+    </nav>
+    <div class="container">
+        
+<h1>Certifications</h1>
+<ul>
+    <li><strong>eJPT – Junior Penetration Tester</strong> (INE)</li>
+    <li><strong>CompTIA Security+</strong> (2024)</li>
+    <li><strong>TryHackMe Cyber Defense & Offensive Path</strong></li>
+    <li><strong>Hack The Box – Tier 1 Badge</strong></li>
+</ul>
+
+    </div>
+</body>
+</html>

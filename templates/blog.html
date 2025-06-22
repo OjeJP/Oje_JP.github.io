@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>Blog</h1>
+<ul>
+    <li><a href="#">How I Hacked My First CTF Box</a></li>
+    <li><a href="#">Beginner's Guide to Burp Suite</a></li>
+    <li><a href="#">Understanding OWASP Top 10</a></li>
+</ul> -->
+
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Cybersecurity Blog</h1>
+
+<p class="intro-text">
+    Welcome to my cybersecurity blog — a collection of write-ups, walkthroughs, and insights on real-world vulnerabilities, red/blue team strategies, and industry observations.
+</p>
+
+<section class="blog-post">
+    <h2><a href="#">How I Escalated Privileges in an AD Lab</a></h2>
+    <p class="post-meta">Posted: April 2025 | Tags: #ActiveDirectory, #PrivilegeEscalation</p>
+    <p>
+        I built a simulated Windows Active Directory environment using VirtualBox and Kali Linux, and used BloodHound and CrackMapExec to map attack paths...
+        <a href="#">Read more →</a>
+    </p>
+</section>
+
+<section class="blog-post">
+    <h2><a href="#">Automating Recon with Python</a></h2>
+    <p class="post-meta">Posted: March 2025 | Tags: #Recon, #BugBounty, #Python</p>
+    <p>
+        I created a script that combines Subfinder, httpx, and nuclei to scan for subdomains and active assets in one go. This post explains how it works and includes the code.
+        <a href="#">Read more →</a>
+    </p>
+</section>
+
+<section class="news-section">
+    <h2>📰 Latest Cybersecurity News</h2>
+    <iframe src="https://cybersecuritynews.com" width="100%" height="500px" title="Latest Cybersecurity News" style="border: none;"></iframe>
+</section>
+
+{% endblock %}
+</body>
+</html>
+

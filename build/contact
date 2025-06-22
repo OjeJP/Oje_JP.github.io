@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Analyst - Your Name</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/certifications">Certifications</a>
+        <a href="/contact">Contact</a>
+        <a href="/blog">Blog</a>
+    </nav>
+    <div class="container">
+        
+<h1>Contact Me</h1>
+<p>Email: your.email@example.com</p>
+<p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+<p>LinkedIn: <a href="https://linkedin.com/in/yourname">linkedin.com/in/yourname</a></p>
+
+    </div>
+</body>
+</html>

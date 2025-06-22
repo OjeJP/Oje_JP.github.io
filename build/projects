@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybersecurity Analyst - Your Name</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/certifications">Certifications</a>
+        <a href="/contact">Contact</a>
+        <a href="/blog">Blog</a>
+    </nav>
+    <div class="container">
+        
+<h1>Projects</h1>
+<ul>
+    <li><strong>Internal Pentest Lab</strong> – Created an isolated test environment with Active Directory, vulnerable apps, and exploited them using BloodHound and CrackMapExec.
+        <a href="https://github.com/yourusername/internal-pentest-lab">GitHub</a></li>
+    <li><strong>VulnHub & TryHackMe Walkthroughs</strong> – Completed 20+ rooms, documented vulnerabilities and exploitation paths.
+        <a href="https://github.com/yourusername/ctf-writeups">GitHub</a></li>
+    <li><strong>Subdomain Enumeration Tool</strong> – Python-based CLI tool using `httpx`, `subfinder`, and `amass`.
+        <a href="https://github.com/yourusername/subenum">GitHub</a></li>
+</ul>
+
+    </div>
+</body>
+</html>

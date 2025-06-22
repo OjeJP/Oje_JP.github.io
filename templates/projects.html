@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Featured Cybersecurity Projects</h1>
+
+<p class="intro-text">
+    Here are some of my most relevant projects that showcase my capabilities across penetration testing, offensive security, tool development, and security monitoring. Each project demonstrates my hands-on skills, from reconnaissance to exploitation and reporting.
+</p>
+
+<section class="project">
+    <h2>1. Web Application Penetration Test – DVWA & Juice Shop</h2>
+    <p>
+        Conducted full black-box penetration tests against <strong>Damn Vulnerable Web Application (DVWA)</strong> and <strong>OWASP Juice Shop</strong>. Utilized tools such as <code>Burp Suite</code>, <code>SQLMap</code>, <code>Dirb</code>, and <code>OWASP ZAP</code> to identify SQL injection, XSS, IDOR, and CSRF vulnerabilities. Provided a full technical report and mitigation steps.
+    </p>
+    <p><strong>Skills:</strong> OWASP Top 10, Burp Suite, SQLMap, Reporting</p>
+    <p><a href="https://github.com/yourusername/web-pentest-dvwa-juiceshop" target="_blank">View Project on GitHub</a></p>
+</section>
+
+<section class="project">
+    <h2>2. Active Directory Lab & Internal Network Attack Simulation</h2>
+    <p>
+        Built a simulated Windows AD environment using <code>VirtualBox</code> and <code>Kali Linux</code>. Used <code>BloodHound</code>, <code>Kerbrute</code>, and <code>CrackMapExec</code> to identify misconfigurations, perform pass-the-hash, and privilege escalation. Demonstrated real-world attack paths from unauthenticated user to Domain Admin.
+    </p>
+    <p><strong>Skills:</strong> AD Enumeration, Kerberos Exploits, Lateral Movement, Network Segmentation Testing</p>
+    <p><a href="https://github.com/yourusername/ad-attack-lab" target="_blank">View Project on GitHub</a></p>
+</section>
+
+<section class="project">
+    <h2>3. Subdomain Enumeration Tool (Python)</h2>
+    <p>
+        Developed a custom Python tool for automated subdomain enumeration using <code>Subfinder</code>, <code>Amass</code>, and <code>httpx</code>. Designed for bug bounty recon workflows. Integrated passive and active DNS scraping, DNS resolution, and status code reporting. Output results to HTML or JSON.
+    </p>
+    <p><strong>Skills:</strong> Python Scripting, OSINT, Recon Automation, Web Security</p>
+    <p><a href="https://github.com/yourusername/subenum-tool" target="_blank">View Project on GitHub</a></p>
+</section>
+
+<section class="project">
+    <h2>4. Threat Hunting & Log Analysis with Elastic Stack</h2>
+    <p>
+        Deployed <code>ELK Stack</code> to ingest Windows Sysmon logs via <code>Winlogbeat</code>. Created custom dashboards in Kibana to detect suspicious PowerShell usage, port scanning, and lateral movement patterns. Simulated brute-force and persistence activities to validate alerting rules.
+    </p>
+    <p><strong>Skills:</strong> ELK Stack, Sysmon, Sigma Rules, Windows Forensics, Threat Detection</p>
+    <p><a href="https://github.com/yourusername/threat-hunting-elk" target="_blank">View Project on GitHub</a></p>
+</section>
+
+{% endblock %}
+
+
+</body>
+</html>
